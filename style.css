@@ -16,7 +16,7 @@ Text Domain: astra-child
   padding-right: 60px !important;
   padding-left: 60px !important;
 }
-div.wpforms-container-full .wpforms-form .wpforms-required-label {
+.wpforms-required-label {
   position: absolute !important;
   color: #fff !important;
   font-size: 80% !important;
@@ -24,13 +24,13 @@ div.wpforms-container-full .wpforms-form .wpforms-required-label {
   margin-left: 12px !important;
   display: inline-block !important;
   line-height: 1 !important;
-  background: green !important;
+  background: red !important;
   padding: 4px 6px;
   vertical-align: text-top !important;
   padding-bottom: 6px;
 }
 @media (min-width: 501px) {
-  div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  .wpforms-field-label {
     text-align: right;
     margin-right: 68px !important;
   }
@@ -42,7 +42,7 @@ div.wpforms-container-full .wpforms-form .wpforms-required-label {
   }
 }
 
-div.wpforms-container-full .wpforms-form textarea.wpforms-field-small {
+.wpforms-field-container textarea.wpforms-field-small {
   height: 70px;
   width: 100%;
   padding: 5px;
@@ -50,7 +50,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-small {
   border-radius: 4px;
 }
 
-div.wpforms-container-full .wpforms-form input[type="text"] {
+.wpforms-field-container input[type="text"] {
   width: 100% !important;
   padding: 5px 10px !important;
   min-height: 40px !important;
@@ -58,7 +58,7 @@ div.wpforms-container-full .wpforms-form input[type="text"] {
   background: #e0e0e0 !important;
   border-radius: 4px !important;
 }
-div.wpforms-container-full .wpforms-form input[type="email"] {
+.wpforms-field-container input[type="email"] {
   padding: 5px 10px !important;
   min-height: 40px !important;
   text-align: left !important;
@@ -131,7 +131,7 @@ div.wpforms-container-full .wpforms-form input[type="email"] {
     border: 1px solid green !important;
   }
 
-  div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left {
+  .wpforms-field-container .wpforms-pagebreak-left {
     width: 50% !important;
   }
   #wpforms-form-5057 {
@@ -142,7 +142,7 @@ div.wpforms-container-full .wpforms-form input[type="email"] {
     padding-bottom: 20px;
   }
 
-  div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left {
+  .wpforms-field-container .wpforms-pagebreak-left {
     text-align: right !important;
     margin-right: 20px;
   }
