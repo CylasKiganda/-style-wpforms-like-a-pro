@@ -65,7 +65,19 @@ div.wpforms-container-full .wpforms-form input[type="email"] {
   background: #e0e0e0 !important;
   border-radius: 4px !important;
 }
-
+.wpforms-any-label {
+  position: absolute !important;
+  color: #fff !important;
+  font-size: 80% !important;
+  font-weight: bold !important;
+  margin-left: 12px !important;
+  display: inline-block !important;
+  line-height: 1 !important;
+  background: #b7b7b7 !important;
+  padding: 4px 6px !important;
+  vertical-align: text-top !important;
+  padding-bottom: 6px !important;
+}
 @media (max-width: 425px) {
   .wpforms-any-label {
     position: absolute !important;
